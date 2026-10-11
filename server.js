@@ -1,4 +1,4 @@
-const express = require('express');
+app.use(express.static(path.join(__dirname, 'public')));const express = require('express');
 const TelegramBot = require('node-telegram-bot-api');
 const crypto = require('crypto');
 const fs = require('fs');
